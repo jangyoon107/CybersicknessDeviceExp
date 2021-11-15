@@ -1,0 +1,44 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.26",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "VR_measure_exp",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Volumetrics",
+			"Enabled": true
+		},
+		{
+			"Name": "UE4Duino",
+			"Enabled": true
+		},
+		{
+			"Name": "VictoryBPLibrary",
+			"Enabled": true,
+			"MarketplaceURL": "http://www.ue4code.com"
+		},
+		{
+			"Name": "OculusVR",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Win32",
+				"Win64",
+				"Android"
+			]
+		}
+	],
+	"TargetPlatforms": [
+		"PS4",
+		"WindowsNoEditor"
+	]
+}
